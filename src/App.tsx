@@ -18,7 +18,7 @@ import { Logo } from "./Logo"
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Box textAlign="center" fontSize="xl" backgroundColor={"#EBF2FE"}>
+    <Box textAlign="center" fontSize="xl" backgroundColor={"#1E1E1E"}>
       <Grid minH="100vh" p={3} >
         {/* <ColorModeSwitcher justifySelf="flex-end" /> */}
        
@@ -28,7 +28,7 @@ export const App = () => (
       '350', // 48em-62em
       '400', // 62em+
     ]} h={"auto"}><Image src='title.png' alt='Dan Abramov' /></Box></Center>
-        <Heading as='h1' size='lg' pb={5} color={"#696969"} > Ethereum wallet tracker at your home screen!</Heading>
+        <Heading as='h1' size='lg' pb={5} color={"#F6FCF5"} > Generate unique ideas using AI!</Heading>
         <VStack >
         <Link
             color="transparent"
@@ -55,7 +55,7 @@ export const App = () => (
           
           <HStack>
 
-          <Text>
+          <Text color={"#F6FCF5"}>
           Made with ❤️ by
           </Text>
           <Link
@@ -69,7 +69,7 @@ export const App = () => (
           </Link>
 
           </HStack>
-          <Text>
+          <Text color={"#F6FCF5"}>
           © 2022 Kevin Ahmad
           </Text>
           
