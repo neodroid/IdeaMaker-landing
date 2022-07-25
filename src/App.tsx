@@ -28,11 +28,11 @@ export const App = () => (
       '350', // 48em-62em
       '400', // 62em+
     ]} h={"auto"}><Image src='title.png' alt='Dan Abramov' /></Box></Center>
-        <Heading as='h1' size='lg' pb={5} color={"#F6FCF5"} > Generate unique ideas using AI!</Heading>
+        <Heading as='h1' size='lg' pb={5} color={"#F6FCF5"} > Generate any unique ideas using AI, based on keyword!</Heading>
         <VStack >
         <Link
             color="transparent"
-            href="https://apps.apple.com/id/app/widgeth-io/id1622378453"
+            href="https://apps.apple.com/app/ideamaker-ai-idea-generator/id1636182441"
             fontSize="2xl"
             target="_blank"
             rel="noopener noreferrer"
